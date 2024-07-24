@@ -1,0 +1,49 @@
+body {
+    background-color: #32ac6b;
+}
+
+.carta {
+    background-color: white;
+    height:100px;
+    width: 70px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pintaTop {
+width: 20px;
+height: 30px;
+text-align: center;
+position: absolute;
+}
+
+.numero {
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+.pintaBot {
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.columna:hover {
+    background-color:hsl(148, 75%, 58%)
+}
